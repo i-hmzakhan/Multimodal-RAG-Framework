@@ -1,0 +1,26 @@
+# --- Core RAG & LLM Framework ---
+python-dotenv          # Management of API keys and environment variables
+google-genai           # Integration for Google's Gemini models
+openai                 # Compatibility layer for OpenAI API (if used)
+
+# --- Vector Database & Embeddings ---
+chromadb               # Persistent vector storage for your AI's "memory"
+sentence-transformers  # Generation of high-quality local text embeddings
+
+# --- Computer Vision & OCR ---
+pytesseract            # Python wrapper for the Tesseract-OCR engine
+pillow                 # Image processing for GUI assets and OCR preprocessing
+
+# --- GUI & User Interface ---
+customtkinter          # Modern, high-performance UI framework
+pyperclip              # Clipboard support for copying AI responses
+markdown2              # Converting AI markdown output into readable UI text
+
+# --- Document Parsing & Data Loading ---
+pymupdf                # High-speed PDF text and image extraction
+python-pptx            # Parsing and indexing of PowerPoint lecture slides
+youtube-transcript-api  # Automated chunking and retrieval of YouTube lectures
+
+# --- Utility & Stability ---
+packaging              # Managing version requirements
+typing-extensions      # Ensuring compatibility across Python versions
