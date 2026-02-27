@@ -24,3 +24,8 @@ youtube-transcript-api  # Automated chunking and retrieval of YouTube lectures
 # --- Utility & Stability ---
 packaging              # Managing version requirements
 typing-extensions      # Ensuring compatibility across Python versions
+
+# ---Note on OCR: This project requires Tesseract-OCR.
+# Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+# Linux: sudo apt install tesseract-ocr
+# Mac: brew install tesseract
